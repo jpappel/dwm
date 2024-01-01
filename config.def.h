@@ -11,7 +11,10 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;        /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10" };
+static const char *fonts[]          = { "-FiraMono Nerd Font-Regular-r-normal--100-100-100-c-0-iso8859-1",
+                                        "/usr/share/fonts/noto-emoji/NotoColorEmoji.ttf: Noto Color Emoji:style=Regular"
+                                        "monospace:size=10"
+                                      };
 static const char dmenufont[]       = "monospace:size=10";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
